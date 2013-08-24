@@ -1,4 +1,7 @@
+from fabric import *
+
 def bootstrap():
+    print env.virtualenv_path
     print 'bootrapping!'
 
 def local():
