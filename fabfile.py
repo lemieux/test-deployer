@@ -5,6 +5,7 @@ def bootstrap():
     print 'bootrapping!'
 
 def local():
+    print env.virtualenv_path
     print 'it is local!'
 
 def deploy():
