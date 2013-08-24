@@ -1,4 +1,4 @@
-from fabric import *
+from fabric.api import *
 
 def bootstrap():
     print env.virtualenv_path
