@@ -3,3 +3,6 @@ def bootstrap():
 
 def local():
     print 'it is local!'
+
+def deploy():
+   print 'deploying!'
